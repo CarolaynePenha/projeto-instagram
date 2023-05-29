@@ -239,6 +239,11 @@ height: 30px;
 padding: 10px;
 display: flex;
 align-items: center;
+position: relative;
+}
+.comentario ion-icon{
+    position: absolute;
+    right: 17px;
 }
 .mais{
     position: absolute;
