@@ -27,6 +27,15 @@
     border-bottom: solid #DBDBDB 1px;
     background-color: #FFFFFF;
 }
+.logoinstagram:hover{
+    cursor: pointer;
+}
+.conteudobarra img:hover{
+cursor: pointer;
+}
+.icones ion-icon:hover{
+    cursor: pointer;
+}
 .conteudobarra{
     position: relative;
     width: 935px;
@@ -57,8 +66,9 @@
     left: 40%;
 }
 
-input{
+.pesquisar input{
     text-align: center;
+    width: 215px;
 }
 .icones{
     position: absolute;
@@ -121,6 +131,12 @@ input{
     justify-content: center;
     
 }
+.storie:hover{
+cursor: pointer;
+}
+.stories ion-icon{
+    cursor: pointer;
+}
 .storie img{
     width:56px;
     height: 56px;
@@ -152,22 +168,90 @@ input{
     align-items: center;
     height: 61px;
 }
+
 .usuario p{
     position: absolute;
     left: 60px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
+.usuario p:hover, img:hover, ion-icon:hover{
+    cursor: pointer;
+}
+
+.comentarios{
+    height: fit-content;
+    border-bottom:solid #DBDBDB 1px; ;
+    
+}
+.publicar-comentario{
+display: flex;
+}
+.publicar-comentario p{
+    font-family: 'Roboto', sans-serif;
+    color: #B2DFFC;
+    margin: 5px;
+    margin-left: 15px;
+    transition: 300ms;
+}
+ .publicar-comentario p:hover{
+    font-family: 'Roboto', sans-serif;
+    color: #0095F6;
+    cursor: pointer;
+}
+.publicar-comentario input{
+    width: 480px;
+    border: 0;
+    text-align: left;
+}
+.publicar-comentario ion-icon:hover{
+    cursor: pointer;
+}
+.status ion-icon:hover{
+    cursor: pointer;
+}
+.comentarios p{
+    height: fit-content;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    max-width: 450px;
+    
+}
+.comentarios small{
+    height: fit-content;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #8E8E8E;
+    margin: 0 10px;   
+}
+.comentario ion-icon{
+    margin: 5px;
+    margin-left: 78px;
+    font-size: 20px;
+}
+.comentario ion-icon:hover{
+    cursor: pointer;
+}
+.comentario{
+height: 30px;
+padding: 10px;
+display: flex;
+align-items: center;
+}
 .mais{
     position: absolute;
     right: 17px;
 }
+
 .postagens{
     width: 614px;
-    height: 749px;
+    height: fit-content;
     margin-top: 24px;
     border: solid #DBDBDB 1px;
     position: relative;
+    margin-bottom: 60px;
 }
 .perfil{
     width: 32px;
@@ -182,33 +266,37 @@ input{
     margin: 1px;
 }
 .status{
-    height: 76px;
+    height: 70px;
+    position: relative;
 }
 b{
     font-weight: bold;
+}
+b:hover{
+    cursor: pointer;
 }
 .curtir{
     width: 20px;
     height: 20px;
     border-radius: 30px;
     position: absolute;
-    left: 17px;
-    bottom: 14px;
+    left: 12px;
+    bottom: 7px;
 }
 .curtido{
     position: absolute;
-    left: 42px;
-    bottom: 14px;
+    left: 38px;
+    bottom: 7px;
 }
 ion-icon{
     margin: 5px;
-    margin-left: 17px;
+    margin-left: 12px;
     font-size: 20px;
 }
 .save{
     position: absolute;
     right: 17px;
-    bottom: 42px;
+    bottom: 7px;
 }
 
 /* Side bar */
@@ -247,6 +335,9 @@ ion-icon{
     display: flex;
     align-items: center;
     position: relative;
+}
+.perfilbar:hover{
+    cursor: pointer;
 }
 .itensbar{
     display: flex;
@@ -297,14 +388,20 @@ ion-icon{
     color: #8E8E8E;
 
 }
+.itensbar:hover{
+    cursor: pointer;
+}
 .Seguir{
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 12px;
     position: absolute;
     right: 0;
     color: #139EF2;
     bottom:50%;
+}
+.Seguir:hover{
+    cursor: pointer;
 }
 .vertudo{
     font-family: 'Roboto', sans-serif;
@@ -314,6 +411,9 @@ ion-icon{
     right: 0;
     bottom: 320px;
     color: #262626;
+}
+.vertudo:hover{
+    cursor: pointer;
 }
 .descritivos{
     font-family: 'Roboto', sans-serif;
