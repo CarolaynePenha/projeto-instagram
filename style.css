@@ -1,479 +1,467 @@
-.content{
-    width: 935px;
-    position: relative;
+.content {
+  width: 935px;
+  position: relative;
 }
-.conteudo{
-    margin-top: 54px;
-    width: 614px;
-    margin:0 auto;
-    position: relative;
+.conteudo {
+  margin-top: 54px;
+  width: 614px;
+  margin: 0 auto;
+  position: relative;
 }
-.home{
-    display: flex;
-    width: 935px;
-    margin:0 auto;
-    height: fit-content;
+.home {
+  display: flex;
+  width: 935px;
+  margin: 0 auto;
+  height: fit-content;
 }
 
 /* barra topo */
-.barratopo{
-    height: 54px;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: solid #DBDBDB 1px;
-    background-color: #FFFFFF;
+.barratopo {
+  height: 54px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid #dbdbdb 1px;
+  background-color: #ffffff;
 }
-.logoinstagram:hover{
-    cursor: pointer;
+.logoinstagram:hover {
+  cursor: pointer;
 }
-.conteudobarra img:hover{
-cursor: pointer;
+.conteudobarra img:hover {
+  cursor: pointer;
 }
-.icones ion-icon:hover{
-    cursor: pointer;
+.icones ion-icon:hover {
+  cursor: pointer;
 }
-.conteudobarra{
-    position: relative;
-    width: 935px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 54px;
-    
-}
-
-.logoinstagram{
-    position: absolute;
-    left: 0px;
-    font-size: 22px;
-    margin: 0;
-
+.conteudobarra {
+  position: relative;
+  width: 935px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
 }
 
-.barratopo img{
-    position: absolute;
-    left: 30px;
-    border-left: solid #DBDBDB 1px;
-    padding-left: 5px;
+.logoinstagram {
+  position: absolute;
+  left: 0px;
+  font-size: 22px;
+  margin: 0;
 }
 
-.pesquisar{
-    position: absolute;
-    left: 40%;
+.barratopo img {
+  position: absolute;
+  left: 30px;
+  border-left: solid #dbdbdb 1px;
+  padding-left: 5px;
 }
 
-.pesquisar input{
-    text-align: center;
-    width: 215px;
-}
-.icones{
-    position: absolute;
-    right: 0px;
+.pesquisar {
+  position: absolute;
+  left: 40%;
 }
 
+.pesquisar input {
+  text-align: center;
+  width: 215px;
+}
+.icones {
+  position: absolute;
+  right: 0px;
+}
 
 /* barra stories */
-.boxstories{
-    width: 614px;
-    padding-top: 54px;
+.boxstories {
+  width: 614px;
+  padding-top: 54px;
 }
-.stories ion-icon{
-    font-size: 26px;
-    position: absolute;
-    right: 8px;
-    z-index: 2;
-    color: #FFFFFF;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    
-
+.stories ion-icon {
+  font-size: 26px;
+  position: absolute;
+  right: 8px;
+  z-index: 2;
+  color: #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.stories{
-    height: 118px;
-    width: 614px;
-    margin-top: 34px;
-    border: solid #DBDBDB 1px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
+.stories {
+  height: 118px;
+  width: 614px;
+  margin-top: 34px;
+  border: solid #dbdbdb 1px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
 }
-.storiesoverflow{
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    width: fit-content;
-    position: absolute;
+.storiesoverflow {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: fit-content;
+  position: absolute;
 }
 
-.storie p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    width: 100%;
-    text-align: center;
-    color: #262626;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-   
-
+.storie p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  color: #262626;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.storie{
-    display: flex;
-    width: 65px;
-    flex-direction: column;
-    margin: 8px;
-    align-items: center;
-    justify-content: center;
-    
+.storie {
+  display: flex;
+  width: 65px;
+  flex-direction: column;
+  margin: 8px;
+  align-items: center;
+  justify-content: center;
 }
-.storie:hover{
-cursor: pointer;
+.storie:hover {
+  cursor: pointer;
 }
-.stories ion-icon{
-    cursor: pointer;
+.stories ion-icon {
+  cursor: pointer;
 }
-.storie img{
-    width:56px;
-    height: 56px;
-    border-radius: 28px;
-    
+.storie img {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
 }
 
-.imagemstorie{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 65px;
-    background-size: 63px;
-    background-repeat: no-repeat;
-    background-image: url("/imagens/stories_background.jpg");
-    background-position: 0.6px center;
+.imagemstorie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  background-size: 63px;
+  background-repeat: no-repeat;
+  background-image: url("/imagens/stories_background.jpg");
+  background-position: 0.6px center;
 }
 
 /* galeria */
-.galeria{
-    width: 614px;
-    height: fit-content;
+.galeria {
+  width: 614px;
+  height: fit-content;
 }
 
 /* postagens */
-.usuario{
-    display: flex;
-    align-items: center;
-    height: 61px;
+.usuario {
+  display: flex;
+  align-items: center;
+  height: 61px;
 }
 
-.usuario p{
-    position: absolute;
-    left: 60px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+.usuario p {
+  position: absolute;
+  left: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
-.usuario p:hover, img:hover, ion-icon:hover{
-    cursor: pointer;
-}
-
-.comentarios{
-    height: fit-content;
-    border-bottom:solid #DBDBDB 1px; ;
-    
-}
-.publicar-comentario{
-display: flex;
-}
-.publicar-comentario p{
-    font-family: 'Roboto', sans-serif;
-    color: #B2DFFC;
-    margin: 5px;
-    margin-left: 15px;
-    transition: 300ms;
-}
- .publicar-comentario p:hover{
-    font-family: 'Roboto', sans-serif;
-    color: #0095F6;
-    cursor: pointer;
-}
-.publicar-comentario input{
-    width: 480px;
-    border: 0;
-    text-align: left;
-}
-.publicar-comentario ion-icon:hover{
-    cursor: pointer;
-}
-.status ion-icon:hover{
-    cursor: pointer;
-}
-.comentarios p{
-    height: fit-content;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    max-width: 450px;
-    
-}
-.comentarios small{
-    height: fit-content;
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    color: #8E8E8E;
-    margin: 0 10px;   
-}
-.comentario ion-icon{
-    margin: 5px;
-    margin-left: 78px;
-    font-size: 20px;
-}
-.comentario ion-icon:hover{
-    cursor: pointer;
-}
-.comentario{
-height: 30px;
-padding: 10px;
-display: flex;
-align-items: center;
-position: relative;
-}
-.comentario ion-icon{
-    position: absolute;
-    right: 17px;
-}
-.mais{
-    position: absolute;
-    right: 17px;
+.usuario p:hover,
+img:hover,
+ion-icon:hover {
+  cursor: pointer;
 }
 
-.postagens{
-    width: 614px;
-    height: fit-content;
-    margin-top: 24px;
-    border: solid #DBDBDB 1px;
-    position: relative;
-    margin-bottom: 60px;
+.comentarios {
+  height: fit-content;
+  border-bottom: solid #dbdbdb 1px;
 }
-.perfil{
-    width: 32px;
-    height: 32px;
-    border-radius: 30px;
-   position: absolute;
-   left: 17px;
+.publicar-comentario {
+  display: flex;
 }
-.principal{
-    width: 612px;
-    height: 612px;
-    margin: 1px;
+.publicar-comentario p {
+  font-family: "Roboto", sans-serif;
+  color: #b2dffc;
+  margin: 5px;
+  margin-left: 15px;
+  transition: 300ms;
 }
-.status{
-    height: 70px;
-    position: relative;
+.publicar-comentario p:hover {
+  font-family: "Roboto", sans-serif;
+  color: #0095f6;
+  cursor: pointer;
 }
-b{
-    font-weight: bold;
+.publicar-comentario input {
+  width: 480px;
+  border: 0;
+  text-align: left;
 }
-b:hover{
-    cursor: pointer;
+.publicar-comentario ion-icon:hover {
+  cursor: pointer;
 }
-.curtir{
-    width: 20px;
-    height: 20px;
-    border-radius: 30px;
-    position: absolute;
-    left: 12px;
-    bottom: 7px;
+.status ion-icon:hover {
+  cursor: pointer;
 }
-.curtido{
-    position: absolute;
-    left: 38px;
-    bottom: 7px;
+.comentarios p {
+  height: fit-content;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  max-width: 450px;
 }
-ion-icon{
-    margin: 5px;
-    margin-left: 12px;
-    font-size: 20px;
+.comentarios small {
+  height: fit-content;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #8e8e8e;
+  margin: 0 10px;
 }
-.save{
-    position: absolute;
-    right: 17px;
-    bottom: 7px;
+.comentario ion-icon {
+  margin: 5px;
+  margin-left: 78px;
+  font-size: 20px;
+}
+.comentario ion-icon:hover {
+  cursor: pointer;
+}
+.comentario {
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.comentario ion-icon {
+  position: absolute;
+  right: 17px;
+}
+.mais {
+  position: absolute;
+  right: 17px;
+}
+
+.postagens {
+  width: 614px;
+  height: fit-content;
+  margin-top: 24px;
+  border: solid #dbdbdb 1px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.perfil {
+  width: 32px;
+  height: 32px;
+  border-radius: 30px;
+  position: absolute;
+  left: 17px;
+}
+.principal {
+  width: 612px;
+  height: 612px;
+  margin: 1px;
+}
+.status {
+  height: 70px;
+  position: relative;
+}
+b {
+  font-weight: bold;
+}
+b:hover {
+  cursor: pointer;
+}
+.curtir {
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  position: absolute;
+  left: 12px;
+  bottom: 7px;
+}
+.curtido {
+  position: absolute;
+  left: 38px;
+  bottom: 7px;
+}
+ion-icon {
+  margin: 5px;
+  margin-left: 12px;
+  font-size: 20px;
+}
+.save {
+  position: absolute;
+  right: 17px;
+  bottom: 7px;
 }
 
 /* Side bar */
-.sidebar{
-    width: 293px;
-    height: 435px;
-    margin-left: 30px;
-    position: sticky;
-    padding-top: 54px;
-    right: 0;
-    top: 34px;
-    margin-top: 34px;
+.sidebar {
+  width: 293px;
+  height: 435px;
+  margin-left: 30px;
+  position: sticky;
+  padding-top: 54px;
+  right: 0;
+  top: 34px;
+  margin-top: 34px;
 }
-.perfilbar img{
-    width: 56px;
-    border-radius: 28px;
-    margin-bottom: 24px;
-    margin-top: 23px;
+.perfilbar img {
+  width: 56px;
+  border-radius: 28px;
+  margin-bottom: 24px;
+  margin-top: 23px;
 }
-.sugestões{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    position: absolute;
-    bottom: 320px;
-    left: 0px;
-    color: #8E8E8E;
+.sugestões {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  position: absolute;
+  bottom: 320px;
+  left: 0px;
+  color: #8e8e8e;
 }
-.itensbar img{
-    width: 32px;
-    height: 32px;
-    border-radius: 30px;
-    margin-bottom: 16px;
+.itensbar img {
+  width: 32px;
+  height: 32px;
+  border-radius: 30px;
+  margin-bottom: 16px;
 }
-.perfilbar{
+.perfilbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.perfilbar:hover {
+  cursor: pointer;
+}
+.itensbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.separador {
+  height: 35px;
+}
+
+.nome {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  position: absolute;
+  top: 35px;
+  left: 75px;
+  color: #262626;
+}
+.name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  position: absolute;
+  bottom: 34px;
+  left: 75px;
+  color: #8e8e8e;
+}
+
+.nomeitens {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+  color: #262626;
+}
+.nameitens {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  position: absolute;
+  bottom: 16px;
+  left: 40px;
+  color: #8e8e8e;
+}
+.itensbar:hover {
+  cursor: pointer;
+}
+.Seguir {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  color: #139ef2;
+  bottom: 50%;
+}
+.Seguir:hover {
+  cursor: pointer;
+}
+.vertudo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  bottom: 320px;
+  color: #262626;
+}
+.vertudo:hover {
+  cursor: pointer;
+}
+.descritivos {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  position: absolute;
+  left: 0px;
+  bottom: 20px;
+  color: #c7c7c7;
+}
+
+.copy {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  color: #c7c7c7;
+}
+
+@media (max-width: 935px) {
+  .sidebar {
+    display: none;
+  }
+  .home {
     display: flex;
-    align-items: center;
-    position: relative;
+    width: 614px;
+    margin: 0 auto;
+    height: fit-content;
+  }
 }
-.perfilbar:hover{
-    cursor: pointer;
-}
-.itensbar{
+@media (max-width: 614px) {
+  .sidebar {
+    display: none;
+  }
+  .home {
     display: flex;
-    align-items: center;
-    position: relative;
-}
-.separador{
-    height: 35px;
-}
+    width: fit-content;
+    height: fit-content;
+  }
+  .postagens {
+    width: 100%;
+  }
+  .galeria {
+    width: 100%;
+  }
+  .principal {
+    width: calc(100% - 2px);
+    height: 612px;
+    margin: 1px;
+  }
 
-.nome{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    position: absolute;
-    top: 35px;
-    left: 75px;
-    color: #262626;
-
-}
-.name{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    position: absolute;
-    bottom: 34px;
-    left: 75px;
-    color: #8E8E8E;
-}
-
-.nomeitens{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    position: absolute;
-    top: 0px;
-    left: 40px;
-    color: #262626;
-
-}
-.nameitens{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    position: absolute;
-    bottom: 16px;
-    left: 40px;
-    color: #8E8E8E;
-
-}
-.itensbar:hover{
-    cursor: pointer;
-}
-.Seguir{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    position: absolute;
-    right: 0;
-    color: #139EF2;
-    bottom:50%;
-}
-.Seguir:hover{
-    cursor: pointer;
-}
-.vertudo{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    position: absolute;
-    right: 0;
-    bottom: 320px;
-    color: #262626;
-}
-.vertudo:hover{
-    cursor: pointer;
-}
-.descritivos{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 11px;
-    position: absolute;
-    left: 0px;
-    bottom: 20px;
-    color: #C7C7C7;
-}
-
-.copy{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 11px;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    color: #C7C7C7;
-}
-
-@media(max-width:935px){
-    .sidebar{
-        display: none;
-    }
-    .home{
-        display: flex;
-        width: 614px;
-        margin:0 auto;
-        height: fit-content;
-    }
-}
-@media(max-width:614px){
-    .sidebar{
-        display: none;
-    }
-    .home{
-        display: flex;
-        width: fit-content;
-        height: fit-content;
-    }
-    .postagens{
-        width: 100%;
-    }
-    .galeria{
-        width: 100%;
-    }
-    .principal{
-        width: calc(100% - 2px);
-        height: 612px;
-        margin: 1px;
-    }
-    
-    /* barra topo mobile */
-.barratopo{
+  /* barra topo mobile */
+  .barratopo {
     height: 54px;
     width: 100%;
     position: fixed;
@@ -481,60 +469,55 @@ ion-icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: solid #DBDBDB 1px;
-}
-.conteudobarra{
+    border-bottom: solid #dbdbdb 1px;
+  }
+  .conteudobarra {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 54px;
-    
-}
+  }
 
-.logoinstagram{
+  .logoinstagram {
     position: absolute;
     font-size: 22px;
     margin: 0;
     left: 26px;
+  }
 
-}
-
-.barratopo img{
+  .barratopo img {
     position: absolute;
     left: 43%;
-    border-left: solid #DBDBDB 1px;
+    border-left: solid #dbdbdb 1px;
     padding-left: 5px;
-}
+  }
 
-.pesquisar{
-   display: none;
-}
-
-input{
+  .pesquisar {
     display: none;
-}
-.icones {
+  }
+
+  input {
+    display: none;
+  }
+  .icones {
     position: absolute;
     right: 18px;
-}
-.compass{
+  }
+  .compass {
     display: none;
-}
-.heart1{
+  }
+  .heart1 {
     display: none;
-}
-.person{
+  }
+  .person {
     display: none;
-}
+  }
 
-/* Barra stories mobile */
+  /* Barra stories mobile */
 
-.stories ion-icon{
+  .stories ion-icon {
     display: none;
+  }
 }
-
-}
-
-        
