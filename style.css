@@ -1,4 +1,4 @@
-.content {
+f.content {
   width: 935px;
   position: relative;
 }
@@ -141,10 +141,9 @@
   align-items: center;
   width: 100%;
   height: 65px;
-  background-size: 63px;
+  background-image: url("./imagens/stories_background.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("/imagens/stories_background.jpg");
-  background-position: 0.6px center;
 }
 
 /* galeria */
